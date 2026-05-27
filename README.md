@@ -9,7 +9,7 @@
 *HUGO (Rol: Líder y Organizador)
 *PACO (Rol: Desarrollador Técnico)
 *LUIS (Rol: Revisor y QA)
-
+```
 tw-tp-organizacion-empresarial/ 
 │ 
 ├── datos/ 
@@ -24,14 +24,27 @@ tw-tp-organizacion-empresarial/
 ├──.gitignore
 │ 
 ├── README.md
+```
 
-#dataset: El dataset fue tomado desde kaggle.com y su autor es ShreyanshVerma27, este contiene un listado de ventas. Son alrededor de 232 productos unicos contando con estos tipos de datos Id, fecha, categoria, nombre del producto, cantidad, precio por unidad, precio total, region y metodo de pago
+#dataset: El dataset fue tomado desde kaggle.com y su autor es ShreyanshVerma27, este contiene un listado de ventas. Son alrededor de 232 productos unicos contando con estos tipos de datos Id, fecha, categoria, nombre del producto, cantidad, precio por unidad, precio total, region y metodo de pago 
+
+https://www.kaggle.com/datasets/shreyanshverma27/online-sales-dataset-popular-marketplace-data/data?utm_source=chatgpt.com
+> [!WARNING]
+> descargar la ultima version de codigo antes de utilizar
 
 #como utilizar el programa:
+```
 paso 1: clonar el repositorio y entrar en el mismo
-  git clone https://github.com/theowla/tw-tp-organizacion-empresarial.git
-  cd tw-tp-organizacion-empresarial
+
+  (1) git clone https://github.com/theowla/tw-tp-organizacion-empresarial.git
+  
+  (2) cd tw-tp-organizacion-empresarial
+  
 paso 2: cargar el set de datos
+
   meter un archivo csv con nombre dataset.csv dentro de la carpeta datos o utilizar el ya implementado
+  
 paso 3: ejecutar el programa
+
   python scripts/analisis_datos.py
+```
